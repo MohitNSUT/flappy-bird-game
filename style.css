@@ -1,0 +1,34 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url("images/bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#heading{
+    h1{
+        margin: 0;
+        color: chocolate;
+    }
+}
+#board {
+    margin-top: 20px;
+    border: 5px solid black;
+    background-image: url("images/flappybirdbg.png");
+}
+#btn1 ,#btn2,#jmp{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    border-radius: 5%;
+    font-size: 15px;
+    margin-right: 5px;
+}
+#btn1:hover,#btn2:hover,#jmp:hover{
+    border: 3px solid green;
+    background-color:darkslategray;
+    color:black;
+}
